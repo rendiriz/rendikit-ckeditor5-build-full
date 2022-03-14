@@ -35,6 +35,8 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
+import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
+import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
@@ -71,6 +73,8 @@ RendikitEditor.builtinPlugins = [
 	Alignment,
 	Underline,
 	Strikethrough,
+	Subscript,
+	Superscript,
 	Code,
 	CodeBlock,
 	ImageResize,
@@ -91,8 +95,10 @@ RendikitEditor.defaultConfig = {
 			'|',
 			'bold',
 			'italic',
-			'strikethrough',
 			'underline',
+			'strikethrough',
+			'subscript',
+			'superscript',
 			'|',
 			'link',
 			'|',
