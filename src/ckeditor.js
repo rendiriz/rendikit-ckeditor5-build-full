@@ -40,6 +40,8 @@ import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
+import GeneralHtmlSupport from '@ckeditor/ckeditor5-html-support/src/generalhtmlsupport';
 
 export default class RendikitEditor extends ClassicEditorBase {}
 
@@ -78,6 +80,8 @@ RendikitEditor.builtinPlugins = [
 	Code,
 	CodeBlock,
 	ImageResize,
+	SourceEditing,
+	GeneralHtmlSupport,
 ];
 
 // Editor configuration.
